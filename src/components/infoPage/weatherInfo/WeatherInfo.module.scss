@@ -1,0 +1,15 @@
+.list{
+  margin: 30px auto;
+  width: 700px;
+
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  .el{
+    min-height: 105px;
+    margin-bottom: 15px;
+    background: linear-gradient(180deg,rgba(0, 33, 151, 0.3) 30%, rgba(36, 38, 70, 0) 80%);
+  }
+}
